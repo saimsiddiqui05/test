@@ -1,0 +1,165 @@
+<SCRIPT Language="JavaScript">
+
+    function scrollbegin()
+    {
+        yDocStart    = 1
+        nPauseBegin  = 15000
+        nPauseMiddle = 15000
+        nPauseEnd    = 15000
+        setTimeout("scrolldown()", nPauseBegin)
+    }
+
+    function scrolldown()
+    {
+        yDocMax      = document.body.scrollHeight
+        yWindowMax   = document.body.clientHeight
+
+        if(yWindowMax >= yDocMax)
+        {
+            scrollend()
+            return
+        }
+
+        yDoc = yDocStart + yWindowMax - 30
+        scroll(1, yDoc)
+
+        if(yDoc < yDocMax)
+        {
+            yDocStart = yDoc
+            setTimeout("scrolldown()", nPauseMiddle)
+        }
+        else  scrollend()
+    }
+
+    function scrollend()
+    {
+        window.location = "magiccontest.htm?r=" + Math.random()
+    }
+
+</SCRIPT>
+
+
+<HTML>
+
+
+<HEAD>
+	<TITLE>46th Karachi Gymkhana Gold Cup 2023</TITLE>
+
+	<META  name=Generator                  content="Magic Contest">
+	<META  name=Version                    content="4.9">
+	<META  name=Author                     content="www.brenning.se">
+
+	<META  name=Licencee                   content="Sind Club">
+	<META  name=Arranger                   content="Sind Club">
+	<META  name=Signature                  content="Scoring by Muhammad Saim Siddiqui">
+	<META  name=Created                    content="2023-12-17 21:55:25">
+
+	<META  name=ContestDate                content="2023-12-16">
+	<META  name=ContestName                content="46th Karachi Gymkhana Gold Cup 2023">
+	<META  name=ContestType                content="4">
+	<META  name=ScoringType                content="Teams">
+	<META  name=TournamentDirector         content="">
+
+	<META  name=TableCount                 content="6">
+	<META  name=TeamCount                  content="12">
+	<META  name=PhantomCount               content="0">
+	<META  name=RoundCount                 content="11">
+	<META  name=RoundCountMax              content="">
+	<META  name=SegmentCount               content="1">
+	<META  name=Average                    content="">
+	<META  name=HandicapPercentageAverage  content="">
+
+	<META  name=CRCategoryID               content="">
+	<META  name=Factor                     content="">
+	<META  name=FactorReason               content="">
+	<META  name=ContestID                  content="1638006783">
+	<META  name=SerialNumber               content="">
+	<META  name=PlayerCategoryCount        content="">
+
+	<META  name=CRMultiSession             content="">
+	<META  name=CRMultiSessionID           content="">
+	<META  name=CRSession                  content="">
+	<META  name=CRSessionCount             content="">
+	<META  name=CRCutAfterSession          content="">
+</HEAD>
+
+
+<BODY onLoad="scrollbegin()">
+
+
+<FORM method=post action='magiccontest.htm'>
+<TABLE width=100% border=0 cellpadding=0 cellspacing=0><TR>
+<TD width=100 valign=center align=left>
+
+
+	<FONT face='Verdana, Arial, Helvetica' size=6>
+		<B>11</B>
+	</FONT>
+
+
+</TD>
+<TD valign=center align=left>
+
+
+	<FONT face='Verdana, Arial, Helvetica' size=5>
+		<B>46th Karachi Gymkhana Gold Cup 2023</B>
+	</FONT>
+
+
+</TD>
+<TD valign=center align=right>
+
+
+	<FONT size=2>
+		<BUTTON type='button' accesskey='B' onClick="location.href='magiccontest.htm'">&nbsp;<<&nbsp;</BUTTON>&nbsp;
+		<BUTTON type='button' accesskey='N' onClick="location.href='magiccontest.htm'">&nbsp;>>&nbsp;</BUTTON>&nbsp;
+	</FONT>
+
+
+</TD>
+</TR></TABLE>
+</FORM>
+
+
+<SCRIPT language=javascript>
+document.forms[0].elements[1].focus()
+</SCRIPT>
+
+
+	<FONT face='Verdana, Arial, Helvetica' size=2>
+		<P>
+		<a href='magiccontest.htm'>Current standing</a>&nbsp;
+		<a href='magiccontest.htm'><<</a>&nbsp;
+		<a href='magiccontest.htm'>>></a>&nbsp;
+		<a href='magiccontest-1.htm'>11</a>
+	</FONT>
+
+
+<font size=6><b>
+
+<PRE>
+Round:  11                                                         
+Tbl  Team                              Boards   IMP        Score   
+ 1   1 KG Red         2  KG Tufail        8    26-16    13.78  6.22
+ 2   7 Fatima         12 Elementary       8    22-27     7.95 12.05
+ 3   3 Adventurers    11 Combined         8    20- 4    15.50  4.50
+ 4   5 MSAP-I         9  Karachi Aces     8    15-12    11.27  8.73
+ 5   8 Tehsin         6  Miran            8    17-33     4.50 15.50
+ 6   4 Salim Chamdia  10 MSAP-II          8    25- 1    17.31  2.69
+</PRE>
+
+</b></font>
+<a name='bottomofpage'>
+
+
+	<FONT face='Verdana, Arial, Helvetica' size=2>
+		<P><HR><P>
+		<a href='magiccontest.htm'>Current standing</a>&nbsp;
+		<a href='magiccontest.htm'><<</a>&nbsp;
+		<a href='magiccontest.htm'>>></a>&nbsp;
+		<a href='magiccontest-1.htm'>11</a>
+	</FONT>
+
+
+</BODY>
+</HTML>
